@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        align-content: center;
+    }
+    div{
+        display: inline-block;
+        background-color: blanchedalmond;
+        width: 1500px;
+        height: 150px;
+        border: 2px solid black;
+    }
+    div:hover>p{
+        display: flex;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        display:none;
+    }
+    p{
+        display: none;
+    }
+    div:active>img{
+        display: block;
+        top: 50px;
+    }
+</style>
+</head>
+<body>
+    <div>
+        <img src="ambani.jpg" width="200" height="150">
+         <p>AMBANI</p>
+    </div>
+    &nbsp; &nbsp; &nbsp;
+    <div>
+        <img src="billgate.jpg" width="200" height="150">
+        <p>BILLGATE</p>
+    </div>
+    &nbsp; &nbsp; &nbsp;
+    <div>
+        <img src="mark.jpeg" width="200" height="150">
+        <p>MARK</p>
+    </div>
+    &nbsp; &nbsp; &nbsp;
+    <div>
+        <img src="buffet.jpg" width="200" height="150">
+        <p>BUFFET</p>
+    </div>
+</body>
+</html>
